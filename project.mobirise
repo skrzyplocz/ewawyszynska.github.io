@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Ewa Wyszyńska - Strona autorska",
-    "currentPage": "index.html",
+    "currentPage": "page7.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -91,11 +91,12 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "Ewa Wyszyńska - oficjalna strona autorska",
+        "meta_descr": "Oficjalna strona autorska polskiej pisarki - Ewy Wyszyńskiej.\nLubisz czytać? Koniecznie zajrzyj! Znajdziesz tu książki właśnie dla Ciebie.\nFantastyka, thriller, horror, powieści grozy i wiele więcej",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/wszystkim%20mi%C5%82o%C5%9Bnikom%20ksi%C4%85%C5%BCek%20serdeczne%20%C5%BCyczenia-940x788.png"
       },
       "components": [
         {
@@ -630,11 +631,11 @@
           "_sourceTheme": "mobirise5",
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"video4\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"6\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"6\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" name=\"videoWidth\" title=\"Video\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"../_images/background1.jpg\" title=\"Image\">\n            <input type=\"color\" value=\"#ffffff\" title=\"Color\" selected>\n            <input type=\"video\" value=\"https://vimeo.com/428046504\" title=\"Video\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"title-wrapper mb-5\">\n            <h4 class=\"mbr-section-title mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                <b>Posłuchaj!</b></h4>\n        </div>\n        <div class=\"row align-items-center\">\n            <div class=\"col-12 col-lg-{{videoWidth}} video-block\">\n                <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://www.youtube.com/watch?v=zIbuuRNXMBg&loop=0&autoplay=0\"></iframe>\n                </div>\n                <p class=\"mbr-description pt-2 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-description\">\"Infantylna zabawa\" z \"Historie pisane emocjami\"<br>Ewa Wyszyńska</p>\n            </div>\n            <div class=\"col-12 col-lg\">\n                <div class=\"text-wrapper\">\n                    <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                        <b>Fragment opowiadania \"Infantylna zabawa\"</b></h5>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Opowiadanie pochodzi z książki \"Historie pisane emocjami\", czyta Czarek Papaj.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "tdRhIw7VnS",
+          "_anchor": "video4-2l",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "video4-2l"
+          "_params": {}
         },
         {
           "alias": false,
@@ -1131,7 +1132,7 @@
       "settings": {
         "title": "Opowieści Czarownicy. Otwarta",
         "order": 5,
-        "meta_descr": "Wciągająca powieść polskiej autorki Ewy Wyszyńskiej.\nCzy moce czarownicy wystarczą, a może uratuje ją miłość?",
+        "meta_descr": "Wciągająca powieść polskiej autorki Ewy Wyszyńskiej.\nCzy moce czarownicy wystarczą, a może uratuje ją miłość? Fantastyka z elementami horroru i romansu - to właśnie to, czego szukasz.",
         "socialSharingUrl": "",
         "meta_image": "@PROJECT_PATH@/assets/images/strona-1122x827.png"
       },
@@ -1864,9 +1865,9 @@
       "settings": {
         "title": "Smacznego, kochanie...",
         "order": 6,
-        "meta_descr": "Wciągająca powieść polskiej autorki Ewy Wyszyńskiej.\nCzy moce czarownicy wystarczą, a może uratuje ją miłość?",
+        "meta_descr": "Szokująca, zaskakująca i bulwersująca powieść Ewy Wyszyńskiej. Thriller psychologiczny o trudnym małżeństwie, zaburzeniach odżywiania i szansie na nowe życie.",
         "socialSharingUrl": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/strona-1122x827.png"
+        "meta_image": "@PROJECT_PATH@/assets/images/strona1-1122x827.png"
       },
       "components": [
         {
@@ -2597,9 +2598,9 @@
       "settings": {
         "title": "Historie pisane emocjami",
         "order": 7,
-        "meta_descr": "Wciągająca powieść polskiej autorki Ewy Wyszyńskiej.\nCzy moce czarownicy wystarczą, a może uratuje ją miłość?",
+        "meta_descr": "Zbiór opowiadań Ewy Wyszyńskiej, w którym znajdziesz największe lęki ludzi. A może odnajdziesz w tej książce również część siebie? Odważysz się?",
         "socialSharingUrl": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/strona-1122x827.png"
+        "meta_image": "@PROJECT_PATH@/assets/images/strona3-1122x827.png"
       },
       "components": [
         {
@@ -3330,9 +3331,9 @@
       "settings": {
         "title": "Medytacja. Wiedza i praktyka",
         "order": 8,
-        "meta_descr": "Wciągająca powieść polskiej autorki Ewy Wyszyńskiej.\nCzy moce czarownicy wystarczą, a może uratuje ją miłość?",
+        "meta_descr": "Polecana książka dla wszystkich, którzy chcą rozpocząć swoją przygodę z medytacją. Medytacja prowadzona jest jedną z najskuteczniejszych metod medytacji. Szukasz spokoju, relaksu, a może chcesz rozwijać się duchowo?",
         "socialSharingUrl": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/strona-1122x827.png"
+        "meta_image": "@PROJECT_PATH@/assets/images/strona4-1122x827.png"
       },
       "components": [
         {
@@ -3991,9 +3992,9 @@
       "settings": {
         "title": "Kreatywny dziennik uważności",
         "order": 9,
-        "meta_descr": "Wciągająca powieść polskiej autorki Ewy Wyszyńskiej.\nCzy moce czarownicy wystarczą, a może uratuje ją miłość?",
+        "meta_descr": "Kreatywny dziennik uważności to dziennik właśnie dla Ciebie! Jeśli szukasz radości i szczęścia w prostych rzeczach, spraw, by każdy Twój dzień był uważny i w duchu mindfulness.",
         "socialSharingUrl": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/strona-1122x827.png"
+        "meta_image": "@PROJECT_PATH@/assets/images/strona5-1122x827.png"
       },
       "components": [
         {
@@ -4591,9 +4592,9 @@
       "settings": {
         "title": "Amazing World",
         "order": 10,
-        "meta_descr": "Wciągająca powieść polskiej autorki Ewy Wyszyńskiej.\nCzy moce czarownicy wystarczą, a może uratuje ją miłość?",
+        "meta_descr": "Kolorowanki dla dorosłych, które pozwolą Ci przeżyć wspaniałą podróż po najpiękniejszych miejscach świata.",
         "socialSharingUrl": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/strona-1122x827.png"
+        "meta_image": "@PROJECT_PATH@/assets/images/strona6-1122x827.png"
       },
       "components": [
         {
@@ -5190,7 +5191,8 @@
     "page8.html": {
       "settings": {
         "title": "Blog",
-        "order": 4
+        "order": 4,
+        "meta_descr": "Codzienność życia nie musi być nudna! A jeśli nie masz czasu na czytanie książek, zajrzyj na bloga."
       },
       "components": [
         {
@@ -5761,7 +5763,8 @@
     "page9.html": {
       "settings": {
         "title": "Spotkania autorskie",
-        "order": 3
+        "order": 3,
+        "meta_descr": "Chcesz zorganizować wspólnie spotkanie autorskie? Napisz wiadomość."
       },
       "components": [
         {
@@ -6337,7 +6340,8 @@
     "page10.html": {
       "settings": {
         "title": "Kontakt",
-        "order": 2
+        "order": 2,
+        "meta_descr": "Skontaktuj się z autorką takich książek jak \"Opowieści Czarownicy\", \"Smacznego, kochanie...\", \"Medytacja. Wiedza i praktyka\"."
       },
       "components": [
         {
